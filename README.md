@@ -24,7 +24,7 @@ OCR is probably one of the easiest vision problems to introduced the utility of 
 
 Here OCR is modelled as a seq2seq learning, where a sequence of image features are extracted from the input word or line image and the output is a sequence of characters or Unicodes.<br>
 
-[CTC](ftp://ftp.idsia.ch/pub/juergen/icml2006.pdf) loss is employed to cacluate the cost here.
+[CTC](http://www.cs.toronto.edu/~graves/icml_2006.pdf) loss is employed to cacluate the cost here.
 
 This example also showcases two variants of the soltuion:-
 - one using raw pixel values as input features for the RNN
