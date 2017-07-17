@@ -28,4 +28,4 @@ CTC loss is employed to cacluate the cost here.
 
 This example also showcases two variants of the soltuion:-
 - one using raw pixel values as input features for the RNN
-- and in the second case a convolutional stack is added at the head of the network to extract more robust features from the input image. Then a sequence of convolutional features are supplied to the RNN. This model is generally referred by the CRNN.
+- and in the second case a convolutional stack is added at the head of the network to extract more robust features from the input image. Then a sequence of convolutional features are supplied to the RNN. This model is generally referred by the  name -CRNN (The first paper which introduced such a model for text recognition is this ![one](https://arxiv.org/abs/1507.05717)
