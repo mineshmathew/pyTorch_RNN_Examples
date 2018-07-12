@@ -5,11 +5,16 @@ I will try to add more explanatory figures, and write-up in the future
 
 
 ## Table of Contents
+- Seq2One
+ * <a href='#Memorize Kth Integer in a Sequence'> Memorize Kth Integer in a Sequence </a>
 - Se2Seq with alignment
   * <a href='#Binary Strings Addition'> Binary Strings Addition </a>
 - Se2Seq without alignment
   * <a href='#OCR using BRNNs and CRNNs'> OCR using RNN and a CRNN </a>
-
+  
+  
+### Memorize Kth Integer in a Sequence
+The problem here is to memorize kth digit in a sequence of digits of varibale length. Say if the sequence is 9,7,0,5,6 and k=3, network should output 0. This is a sequence to one problem where input digits are represented suing one hot vectors of length=10 (since there are 10 digits)
 
 ### Binary Strings Addition
 This problem introduces a simple sequence to sequence learning example where the task is to make an RNN learn the binary addition. Problem is modelled as a seq2seq, where input and output sequences are aligned.<br>
