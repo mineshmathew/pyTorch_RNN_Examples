@@ -6,7 +6,7 @@ I will try to add more explanatory figures, and write-up in the future
 
 ## Table of Contents
 - Seq2One
- * <a href='#Memorize Kth Integer in a Sequence'> Memorize Kth Integer in a Sequence </a>
+  * <a href='#Memorize Kth Integer in a Sequence'> Memorize Kth Integer in a Sequence </a>
 - Se2Seq with alignment
   * <a href='#Binary Strings Addition'> Binary Strings Addition </a>
 - Se2Seq without alignment
