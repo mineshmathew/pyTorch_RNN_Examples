@@ -4,12 +4,14 @@ If you are looking for reusable, optimal solutions this repo need not suit your 
 I will try to add more explanatory figures, and write-up in the future 
 
 
-### Table of Contents
-- <a href='#Binary Strings Addition'> Binary Strings Addition </a>
-- <a href='#OCR using BRNNs and CRNNs'> OCR using RNN and a CRNN </a>
+## Table of Contents
+- Se2Seq with alignment
+  * <a href='#Binary Strings Addition'> Binary Strings Addition </a>
+- Se2Seq without alignment
+  * <a href='#OCR using BRNNs and CRNNs'> OCR using RNN and a CRNN </a>
 
 
-## Binary Strings Addition
+### Binary Strings Addition
 This problem introduces a simple sequence to sequence learning example where the task is to make an RNN learn the binary addition. Problem is modelled as a seq2seq, where input and output sequences are aligned.<br>
 
 Corresponding bits from the input strings forms a 2 - element input vector at each time- step and the target  or desired bit is the corresponding bit from the output binary string. Prior to this we make sure that input sequences are padded with a 'zero' on the left if the output string has one extra bit. The sequence is processed from the Least significant bit (LSB) to the Most Significant Bit(MSB) since thats how the addition is done. <br>
@@ -19,7 +21,7 @@ Network has 2 input nodes, 10 or 20 hidden LSTM nodes  and a single output node 
 
 
 
-## OCR using RNN and CRNN
+### OCR using RNN and CRNN
 OCR is probably one of the easiest vision problems to introduced the utility of RNNs in sequence learning. Here we introduce seq2seq learning, without input and output sequence alignment. 'Without alignment' means that, you dont have a  corresponding target at each time step and the input and output lengths may vary. All you know is that you have an input sequence of features and you need to map it to an output sequence of class labels.<br>
 
 Here OCR is modelled as a seq2seq learning, where a sequence of image features are extracted from the input word or line image and the output is a sequence of characters or Unicodes.<br>
