@@ -1,4 +1,4 @@
-# pytorch RNN Examples
+# Sequence Learning using RNNs in Pytorch
 Few sequence learning problems using RNNs are introduced here. Maintained mostly from a learning persepctive.<br>
 If you are looking for reusable, optimal solutions this repo need not suit your requirements<br>
 I will try to add more explanatory figures, and write-up in the future 
