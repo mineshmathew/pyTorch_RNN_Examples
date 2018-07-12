@@ -27,7 +27,7 @@ Network has 2 input nodes, 10 or 20 hidden LSTM nodes  and a single output node 
 
 
 ### OCR using RNN and CRNN
-OCR is probably one of the easiest vision problems to introduced the utility of RNNs in sequence learning. Here we introduce seq2seq learning, without input and output sequence alignment. 'Without alignment' means that, you dont have a  corresponding target at each time step and the input and output lengths may vary. All you know is that you have an input sequence of features and you need to map it to an output sequence of class labels.<br>
+OCR is probably one of the simplest vision problems to introduce the utility of RNN architecures for seq2seq learning without alignment.  'Without alignment' means that, you dont have a  corresponding target at each time step and the input and output lengths may vary. All you know is that you have an input sequence of features and you need to map it to an output sequence of class labels.<br>
 
 Here OCR is modelled as a seq2seq learning, where a sequence of image features are extracted from the input word or line image and the output is a sequence of characters or Unicodes.<br>
 
